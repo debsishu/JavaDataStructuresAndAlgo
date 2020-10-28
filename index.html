@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK fitness gym</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">SK <span>Fitness</span></a>
+            </div>
+            <a href="javascript:void(0)" class="ham-burger">
+                <span></span>
+                <span></span>
+            </a>
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Classes</a></li>
+                    <li><a href="#">Scheddule</a></li>
+                    <li><a href="#">Price</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--End of header-->
+    <!--Start home page-->
+    <section class="home">
+        <div class="container">
+            <h1>Welcome To <span>Sk Fitness</span>. Let's Go</h1>
+            <h2>We are ready to <span>fit you</span>.</h2>
+
+        </div>
+        <!--go down button-->
+        <a href="#about" class="go-down">
+            <i class='fas fa-angle-down'></i>
+        </a>
+        <!--go down button-->
+
+        
+    </section>
+    <!--end home page-->
+    <!--start about section-->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="content">
+                <div class="box">
+                    <div class="inner">
+                        <div class="img">
+                            <img src="img/about.jpg" alt="about">
+
+                        </div>
+                        <div class="text">
+                            <h4>Best Training</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam deserunt unde quam dolor corporis accusantium nostrum praesentium quaerat facere, eius minus possimus deleniti doloremque voluptates voluptatum rerum vitae quo ut iste odit. Ab, molestias corrupti sed ipsum reprehenderit ducimus modi minima ad ipsa sapiente?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner">
+                        <div class="img">
+                            <img src="img/about2.jpg" alt="about">
+
+                        </div>
+                        <div class="text">
+                            <h4>Free Services</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam deserunt unde quam dolor corporis accusantium nostrum praesentium quaerat facere, eius minus possimus deleniti doloremque voluptates voluptatum rerum vitae quo ut iste odit. Ab, molestias corrupti sed ipsum reprehenderit ducimus modi minima ad ipsa sapiente?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inner">
+                        <div class="img">
+                            <img src="img/about3.jpg" alt="about">
+
+                        </div>
+                        <div class="text">
+                            <h4>Build Perfect Body</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam deserunt unde quam dolor corporis accusantium nostrum praesentium quaerat facere, eius minus possimus deleniti doloremque voluptates voluptatum rerum vitae quo ut iste odit. Ab, molestias corrupti sed ipsum reprehenderit ducimus modi minima ad ipsa sapiente?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end about section-->
+    <section class="service" id="service">
+        <div class="container">
+            <div class="content">
+                <div class="left box">
+                    <h2>Services</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus placeat quod repudiandae consequuntur, aut saepe deserunt vitae ipsam provident numquam soluta natus quaerat maiores animi reiciendis assumenda atque magnam fugiat ut vero. At, eum similique. Quae quis et sequi sunt?</p>
+                    <a class="btn" href="#">Start Now</a>
+                </div>
+                <div class="right box">
+                    <div class="head">
+                        <h4>Cardiovascular Equipments</h4>
+                    </div>
+                    <div class="body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab tenetur ratione dolorem dolorum atque aliquam nisi repellendus fugiat tempore? Soluta est nisi quam eos tempora repudiandae enim unde? Quidem harum ullam impedit obcaecati eaque minima tempora praesentium cum a iste?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--start service-->
+
+    <!--end service-->
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $(".ham-burger").click(function(){
+                $(".nav").toggleClass("open");
+                $(this).toggleClass("active");
+            });
+        });
+    </script>
+</body>
+</html>
